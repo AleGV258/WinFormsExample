@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1AB4BC5A-79EB-47A3-B476-854275C5F59A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ProyectoFinal.My.MyApplication</StartupObject>
+    <RootNamespace>ProyectoFinal</RootNamespace>
+    <AssemblyName>ProyectoFinal</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ProyectoFinal.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ProyectoFinal.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="principal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="principal.Designer.vb">
+      <DependentUpon>principal.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="subProducto.Designer.vb">
+      <DependentUpon>subProducto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="subProducto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="principal.resx">
+      <DependentUpon>principal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="subProducto.resx">
+      <DependentUpon>subProducto.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monitor asus1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monitor hp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asus 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asus 6.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asus 6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asus3.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asus5.9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrito.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monitor asus11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\regresar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3_31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5_31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6_31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asus1_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asus1_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asus2_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asus2_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asus3_1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asus3_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asus4_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asus4_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asus5_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asus5_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asus6_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asus6_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrito1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\regresar1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

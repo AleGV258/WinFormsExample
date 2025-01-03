@@ -1,0 +1,26 @@
+C:\Users\alegv\Documents\Escuela\Universidad FIF\2do Semestre\Diseños de Interfaces\Visual Basic\ProyectoFinal\ProyectoFinal\bin\Debug\ProyectoFinal.exe.config
+C:\Users\alegv\Documents\Escuela\Universidad FIF\2do Semestre\Diseños de Interfaces\Visual Basic\ProyectoFinal\ProyectoFinal\bin\Debug\ProyectoFinal.exe
+C:\Users\alegv\Documents\Escuela\Universidad FIF\2do Semestre\Diseños de Interfaces\Visual Basic\ProyectoFinal\ProyectoFinal\bin\Debug\ProyectoFinal.pdb
+C:\Users\alegv\Documents\Escuela\Universidad FIF\2do Semestre\Diseños de Interfaces\Visual Basic\ProyectoFinal\ProyectoFinal\bin\Debug\ProyectoFinal.xml
+C:\Users\alegv\Documents\Escuela\Universidad FIF\2do Semestre\Diseños de Interfaces\Visual Basic\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.vbprojAssemblyReference.cache
+C:\Users\alegv\Documents\Escuela\Universidad FIF\2do Semestre\Diseños de Interfaces\Visual Basic\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Resources.resources
+C:\Users\alegv\Documents\Escuela\Universidad FIF\2do Semestre\Diseños de Interfaces\Visual Basic\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.vbproj.GenerateResource.cache
+C:\Users\alegv\Documents\Escuela\Universidad FIF\2do Semestre\Diseños de Interfaces\Visual Basic\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.vbproj.CoreCompileInputs.cache
+C:\Users\alegv\Documents\Escuela\Universidad FIF\2do Semestre\Diseños de Interfaces\Visual Basic\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.exe
+C:\Users\alegv\Documents\Escuela\Universidad FIF\2do Semestre\Diseños de Interfaces\Visual Basic\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.xml
+C:\Users\alegv\Documents\Escuela\Universidad FIF\2do Semestre\Diseños de Interfaces\Visual Basic\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.pdb
+C:\Users\alegv\Documents\Escuela\Universidad FIF\2do Semestre\Diseños de Interfaces\Visual Basic\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.formTiendaOnlineHardware.resources
+C:\Users\alegv\Documents\Escuela\Universidad FIF\2do Semestre\Diseños de Interfaces\Visual Basic\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.subProducto.resources
+C:\Users\alegv\Downloads\DIS30_259663_259678_260541_261540_ProyectoFinal\ProyectoFinal\ProyectoFinal\bin\Debug\ProyectoFinal.exe.config
+C:\Users\alegv\Downloads\DIS30_259663_259678_260541_261540_ProyectoFinal\ProyectoFinal\ProyectoFinal\bin\Debug\ProyectoFinal.exe
+C:\Users\alegv\Downloads\DIS30_259663_259678_260541_261540_ProyectoFinal\ProyectoFinal\ProyectoFinal\bin\Debug\ProyectoFinal.pdb
+C:\Users\alegv\Downloads\DIS30_259663_259678_260541_261540_ProyectoFinal\ProyectoFinal\ProyectoFinal\bin\Debug\ProyectoFinal.xml
+C:\Users\alegv\Downloads\DIS30_259663_259678_260541_261540_ProyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.vbproj.AssemblyReference.cache
+C:\Users\alegv\Downloads\DIS30_259663_259678_260541_261540_ProyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.formTiendaOnlineHardware.resources
+C:\Users\alegv\Downloads\DIS30_259663_259678_260541_261540_ProyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.Resources.resources
+C:\Users\alegv\Downloads\DIS30_259663_259678_260541_261540_ProyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.subProducto.resources
+C:\Users\alegv\Downloads\DIS30_259663_259678_260541_261540_ProyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.vbproj.GenerateResource.cache
+C:\Users\alegv\Downloads\DIS30_259663_259678_260541_261540_ProyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.vbproj.CoreCompileInputs.cache
+C:\Users\alegv\Downloads\DIS30_259663_259678_260541_261540_ProyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.exe
+C:\Users\alegv\Downloads\DIS30_259663_259678_260541_261540_ProyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.xml
+C:\Users\alegv\Downloads\DIS30_259663_259678_260541_261540_ProyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.pdb
